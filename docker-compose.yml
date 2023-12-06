@@ -1,0 +1,9 @@
+version: '1'
+services:
+   app:
+    container_name: Quoters
+    image: 'Quoters'
+    build:
+      context: .
+    ports:
+      - "8081:8081"
