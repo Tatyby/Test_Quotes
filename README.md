@@ -12,9 +12,9 @@ view of the top and worse 10 quotes, the details of each quote, and ideally a gr
 time.
 Not requested: frontend part, authentication mechanism, and account rights management.
 
-- скачать образ с помощью команды: docker pull tatiby/quoters
+- скачать образ с помощью команды: docker pull tatiby/quoters:latest
 
-- запустить контейнер на основе образа с помощью команды: docker run -d -p 8081:8081 tatiby/quoters
+- запустить контейнер на основе образа с помощью команды: docker run -d -p 8081:8081 tatiby/quoters:latest
 
 Либо:
 
